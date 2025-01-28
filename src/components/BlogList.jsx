@@ -31,7 +31,7 @@ function BlogList() {
         <div className="flex flex-col items-center justify-center">
           <input
             type="text"
-            className="w-60 md:w-80 text-md py-1 px-3 rounded"
+            className="w-60 md:w-80 text-md py-1 px-3  border border-slate-300 rounded"
             placeholder="Search..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
